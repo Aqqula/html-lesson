@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn HTML</title>
+    <style>
+        /* селектор тегу 001*/
+        h2{
+            color:pink;
+        }
+        /* селектор идентификатора 100*/
+        #unique{
+            color:darkolivegreen;
+        }
+        /* селектор класса 010*/
+        .color-h2{
+            color:darkviolet;
+        }
+        .color-main{
+            color:chocolate;
+        }
+        .color-h2.color-main{
+            color:chartreuse;
+        }
+    </style>
 </head>
 <body>
-    
+    <h2 style="color:cornflowerblue">heading 1</h2>
+    <h2 class="color-h2 color-main">heading 2</h2>
+    <h2 id="unique">heading 3</h2>
+    <h2>heading 4</h2>
+    <h2>heading 5</h2>
+    <h2 class="color-h2">heading 6</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, maiores! Eveniet minima hic facere, est saepe quae eum sed nostrum possimus aliquid id atque aliquam reiciendis ipsam nemo, eligendi amet.</p>
+    <!-- header+main+footer -->
 </body>
 </html>
